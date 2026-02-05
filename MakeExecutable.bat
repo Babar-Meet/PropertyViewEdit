@@ -35,7 +35,7 @@ echo Step 2: Installing tools...
 pip install --upgrade pip
 
 :: Install requirements
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 
 :: Build the executable
 echo.
