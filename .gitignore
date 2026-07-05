@@ -35,6 +35,12 @@ changedate/
 # PyInstaller
 *.manifest
 *.spec
+*.exe
+
+# Build artifacts
+build_env/
+TimeWeaver_Portable/
+TimeWeaver.spec
 
 # Installer logs
 pip-log.txt
@@ -60,3 +66,8 @@ cover/
 .idea/
 *.swp
 *.swo
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
